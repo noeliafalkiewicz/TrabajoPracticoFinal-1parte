@@ -5,3 +5,15 @@ header{
 .about{
     background-color: blueviolet;
 }
+
+.imagenes{
+    background-color: rgb(242, 41, 41);
+}
+
+.work{
+    background-color: aqua;
+}
+
+.tp{
+    border: 1px solid black;
+}
