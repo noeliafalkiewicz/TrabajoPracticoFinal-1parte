@@ -17,3 +17,7 @@ header{
 .tp{
     border: 1px solid black;
 }
+
+.dibujo-titulo{
+    background-color: blue;
+}
