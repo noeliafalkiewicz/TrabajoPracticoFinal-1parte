@@ -4,24 +4,41 @@ body{
     font-family:'Quicksand', sans-serif;
 }
 
-
+/* SECCION DEL HEADER Y DEL HERO*/
 header{
     background-color: blue;
-    border: 1px solid black;
+    border: 5px solid black;
+
 }
 
 header .logo{
+    height: 10vh;
     background-color: lightgreen;
     display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    
+}
+
+a{
+  text-decoration: none; 
+  font-size: 1.6rem;
+  padding-right: 2rem;
+
 }
 
 header .hero{
+    height: 70vh;
     display: flex;
+
 }
 .hero2{
     background-color: coral;
 }
 
+
+/* SECCION ABOUT ME */
 .about{
     background-color: blueviolet;
 }
