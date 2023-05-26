@@ -5,11 +5,29 @@ body{
 
 
 header{
-    background-color: aquamarine;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+header .logo{
+    background-color: lightgreen;
+    display: flex;
+}
+
+header .hero{
+    display: flex;
+}
+.hero2{
+    background-color: coral;
 }
 
 .about{
     background-color: blueviolet;
+}
+
+.about .textoabout{
+    display: flex;
+    justify-content: center;
 }
 
 .estudios{
