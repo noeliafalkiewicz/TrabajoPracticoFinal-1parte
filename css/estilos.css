@@ -96,6 +96,10 @@ header .hero{
 .dibujo-titulo{
     background-color: blue;
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+}
 
 .redessociales{
     background-color: lightcoral;
