@@ -56,8 +56,41 @@ header .hero{
     background-color: aqua;
 }
 
-.tp{
+.worktexto1{
+    display: flex;
+    justify-content: center;
+}
+
+.worktexto2{
+    display: flex;
+    justify-content: center;
+}
+
+.tp1, .tp2, .tp3{
     border: 1px solid black;
+}
+
+.tp1{
+    width: 10rem;
+    height: 9rem;
+}
+
+.tp2{
+    width: 13rem;
+    height: 11rem;
+}
+
+.tp3{
+    width: 8rem;
+    height: 9rem;
+    margin-left: 50%;
+
+}
+
+.tp1tp2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .dibujo-titulo{
