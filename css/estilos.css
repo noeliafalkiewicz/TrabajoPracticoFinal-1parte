@@ -237,4 +237,7 @@ textarea{
 
 footer{
     background-color: aquamarine;
+    height: 20rem;
+    padding-top: 5rem;
+    margin-top: -8rem;
 }
