@@ -25,13 +25,27 @@ header .hero{
     background-color: blueviolet;
 }
 
-.about .textoabout{
+
+.textoabout{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto1{
+    display: flex;
+    justify-content: center;
+}
+
+.texto2{
     display: flex;
     justify-content: center;
 }
 
 .estudios{
     background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .imagenes{
