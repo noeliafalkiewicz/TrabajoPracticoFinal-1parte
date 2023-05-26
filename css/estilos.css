@@ -8,6 +8,7 @@ body{
 header{
     background-color: blue;
     border: 5px solid black;
+    margin: 3% 2%;
 
 }
 
@@ -31,16 +32,47 @@ a{
 header .hero{
     height: 70vh;
     display: flex;
+    background-color: blue;
 
+
+}
+
+.hero1{
+    background-color: aqua;
+    height: 80%;
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 .hero2{
     background-color: coral;
+    height: 80%;
+    width: 45%;
+    margin-top: 5%;  
+}
+
+.hero1 h1{
+    font-size: 6.5rem;
+    margin: 0 0 0 4rem;
+}
+.hero1 h3{
+    font-size: 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: end;  
+}
+
+.hero1 button{
+    margin-left: 60%;
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
 }
 
 
 /* SECCION ABOUT ME */
 .about{
     background-color: blueviolet;
+    margin-bottom: 3rem;
 }
 
 
@@ -52,18 +84,26 @@ header .hero{
 .texto1{
     display: flex;
     justify-content: center;
+    font-size: 5em;
+    margin-bottom: 0;
 }
 
 .texto2{
     display: flex;
     justify-content: center;
+    font-size: 2rem;
 }
 
 .estudios{
     background-color: brown;
     display: flex;
     justify-content: space-evenly;
+}
 
+.estudios div{
+    border: 2px solid black;
+    width: 15rem;
+    height: 15rem;
 }
 
 .imagenes{
