@@ -165,7 +165,7 @@ header .hero{
 
 }
 
-
+/*SECCION DIBUJO Y TITULO*/
 
 .dibujo-titulo{
     background-color: blue;
@@ -173,23 +173,67 @@ header .hero{
 .titulo{
     display: flex;
     justify-content: center;
+    font-size: 5rem;
 }
 
+/*SECCION FORMULARIO*/
 .formulario{
     display: flex;
 
 }
 .redessociales{
     background-color: lightcoral;
-    width: 50%;
+    width: 40%;
+    font-size: 2rem;
+    padding-left: 5rem;
+    height: 35rem;
+    
+}
+
+.social{
+    display: flex;
 }
 
 .mensaje{
     background-color: lightgreen;
     display: flex;
     flex-direction: column;
+    border: 2px solid black;
+    width: 45%;
+    height: 40rem;
+    padding-top: 3rem; 
+    padding-left: 10rem;
+    
+    
 }
 
+.mensaje input{
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 2rem;
+   
+}
+
+textarea{
+    width: 80%;
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+
+.mensaje button{
+    width: 12rem;
+    height: 3rem;
+    margin-left: 25%;
+    
+}
+
+.mensaje h3{
+    font-size: 1rem;
+    padding-left: 11rem;
+}
+
+/*SECCION FOOTER*/
 
 footer{
     background-color: aquamarine;
