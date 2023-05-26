@@ -101,12 +101,19 @@ header .hero{
     justify-content: center;
 }
 
+.formulario{
+    display: flex;
+
+}
 .redessociales{
     background-color: lightcoral;
+    width: 50%;
 }
 
 .mensaje{
     background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
 }
 
 
