@@ -106,8 +106,11 @@ header .hero{
     height: 15rem;
 }
 
+/* SECCION IMAGENES*/
 .imagenes{
     background-color: rgb(242, 41, 41);
+    display: flex;
+    justify-content: end;
 }
 
 .work{
