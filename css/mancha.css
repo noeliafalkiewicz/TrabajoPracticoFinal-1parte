@@ -1,0 +1,16 @@
+body{
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.mancha1{
+    
+  width: 130px;
+  height: 175px;
+  background-color: #32557f;
+  border-radius: 50% 80% 50% 80% / 50% 80% 50% 80%;
+}
+    
+    
+
+
