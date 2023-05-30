@@ -96,7 +96,7 @@ header a:hover {
     margin-top: -1rem;
     border-radius: 1rem;
     background-color: rgba(175, 140, 88, 0.979);
-    border-color:rgba(175, 140, 88, 0.979) ;
+    border:1px solid rgba(175, 140, 88, 0.979);
     color: white;
     box-shadow: none;
 }
@@ -279,15 +279,19 @@ header a:hover {
 
 .social img:hover{
      transform: scale(1.1);
-
 }
 
 div h4{
     color: rgb(161, 185, 209);
     text-align: center;
-    padding-left: 2rem;
-    
+    margin-left: 2rem;  
 }
+
+.social h4:hover{
+    color: white;
+    background-color: rgb(161, 185, 209);
+}
+
 .mensaje{
     background-color: white;
     display: flex;
@@ -310,7 +314,8 @@ div h4{
     border: 1px solid rgb(161, 185, 209);
     border-radius: 0.5rem;
     font-size: 1.5rem;
-    color: brown;
+    
+    
     
 }
 
@@ -323,7 +328,7 @@ textarea{
     border-radius: 0.5rem;
     font-size: 1.5rem;
     font-family:'Quicksand', sans-serif;
-    color: brown !important;
+   
 }
 
 
@@ -331,12 +336,16 @@ textarea{
     width: 15rem;
     height: 5rem;
     margin-left: 20%;
+    border: 1px solid rgba(175, 140, 88, 0.979);
     border-radius: 1rem;
     color: white;
     background-color: rgba(175, 140, 88, 0.979);
-    font-size: 1.7rem;
-    
-    
+    font-size: 1.7rem;       
+}
+
+.mensaje button:hover{
+    color:rgba(175, 140, 88, 0.979);
+    background-color: white;
 }
 
 .mensaje h3{
