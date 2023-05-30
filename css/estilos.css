@@ -329,8 +329,18 @@ textarea{
 /*SECCION FOOTER*/
 
 footer{
-    background-color: aquamarine;
+    color: white;
+    background-color: black;
     height: 20rem;
     padding-top: 5rem;
     margin-top: -8rem;
+}
+
+footer a{
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer nav{
+    margin-left: 5rem;
 }
