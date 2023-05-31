@@ -47,11 +47,11 @@ a{
   font-size: 1.6rem;
   margin-right: 2rem;
   color: rgba(233, 66, 10, 0.952);
+  
 }
 
 header a:hover {
-    color: white;
-    background-color: rgba(233, 66, 10, 0.952);
+    text-decoration: underline;
 }
 
 .hero{
@@ -302,9 +302,7 @@ div h4{
     height: 45rem;
     padding-top: 5.5rem; 
     padding-left: 10rem;
-    margin-right: 3rem;
-    
-    
+    margin-right: 3rem;  
 }
 
 .mensaje input{
@@ -313,13 +311,12 @@ div h4{
     margin-bottom: 2.8rem;
     border: 1px solid rgb(161, 185, 209);
     border-radius: 0.5rem;
-    font-size: 1.5rem;
-    
-    
-    
+    font-size: 1.5rem;   
 }
 
-
+.mensaje ::placeholder{
+    color: rgb(231, 224, 224);
+}
 textarea{
     width: 80%;
     height: 17rem;
@@ -368,6 +365,9 @@ footer a{
     font-size: 1.3rem;
 }
 
+footer a:hover{
+    text-transform: uppercase;
+}
 footer nav{
     margin-left: 5rem;
 }
