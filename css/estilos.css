@@ -1,13 +1,60 @@
 body{
-    margin: -11rem 0 0 0;
+    margin: 0;
     padding: 0;
     font-family:'Quicksand', sans-serif;
 }
 
+/*SECTOR MEDIA QUERIES*/
+/*Para compu*/
+@media (min-width: 769px){
+    .hero{
+        width: 100%;
+    }
+}
+ 
+/*Para tablet*/
+
+@media (min-width: 481px) and (max-width:768px){
+    .logo nav{
+        display: none;
+    }
+    .hero{
+        margin-left: -10rem;
+    }
+    .hero2{
+        display: none;
+    }
+    .hero1{
+        padding-left: 0;
+    }
+        
+}
+     
+
+/*Para celular*/
+
+@media (min-width:320px) and (max-width: 480px){
+    header{
+        width: 1rem;
+        margin-right: 0;
+    }
+    .logo nav{
+        display: none;
+    }
+    .hero2{
+        display: none;
+    }
+    
+        
+}
+ 
+
 /* SECCION DEL HEADER Y DEL HERO*/
 header{
-    height: 42rem;
-    margin: 0rem 3rem 3rem 3rem;
+    height: 40rem;
+    width: 94%; 
+    margin-left: 3rem;
+    margin-top: -9rem;
     box-shadow: 0.1rem 0.1rem 1rem 0.2rem rgba(158, 156, 156, 0.8);
 
 }
@@ -35,9 +82,9 @@ header .logo{
 }
 
 
-nav{
+header nav{
     position: relative;
-    right: 3rem;
+    right: 2rem;
     top: 2rem;
 }
 
@@ -62,15 +109,16 @@ header a:hover {
 }
 
 .hero1{
-    height: 30vh;
-    width: 45%;
+    height: 30rem;
+    width: 30rem;
     padding-top: 5rem ;
     margin-right: 0;
 }
 .hero2{
-    height: 30vh;
-    width: 45%;
+    height: 30rem;
+    width: 30rem;
     padding-top: 1rem;
+    padding-left: 3rem;
 }
 
 .hero2 img{
@@ -98,7 +146,7 @@ header a:hover {
 
 .hero1 button{
     width: 15rem;
-    margin-left: 62.5%;
+    margin-left: 15rem;
     font-size: 1.6rem;
     padding: 1rem 3.1rem;
     margin-top: -1rem;
@@ -171,8 +219,8 @@ header a:hover {
 
 .estudios div{
     border: 1px solid rgba(248, 243, 243, 0.8);
-    width: 16rem;
-    height: 16rem;
+    width: 18rem;
+    height: 13rem;
     padding-top: 2rem;
     border-radius: 3rem;
     box-shadow: 0 0 0.3rem rgba(158, 156, 156, 0.8);
@@ -180,23 +228,26 @@ header a:hover {
 }
 
 .dibujoestudios{
-    height: 10rem;
-    width: 10rem;
-    padding-top: -5rem;
-    padding-left: 3rem;
-    
+    height: 9.5rem;
+    width: 9.5rem;
+    padding-top: -1rem;
+    padding-bottom:0rem;
+    padding-left: 4rem;
+    margin-bottom: 0; 
 }
+
+
 
 .cuadrados:hover{
        transform: scale(1.1);
 }
 
 .dibujoestudios1{
-    height: 8rem;
-    width: 8rem;
+    height: 7rem;
+    width: 7.5rem;
     padding-top: -11rem;
-    padding-left: 4rem;
-    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-bottom: 1.5rem;
     margin-top: 1rem;
     
 }
@@ -207,7 +258,7 @@ header a:hover {
     padding-top: 0;
     margin-top: 0rem;
     margin-bottom: 1rem;
-    padding-left: 4rem;
+    padding-left: 5rem;
 }
 
 
@@ -222,7 +273,7 @@ header a:hover {
 .dibujo4{
     width: 20rem;
     height: 20rem;
-    margin-right: -4rem;
+    margin-right: 4rem;
     margin-top: 0;
 }
 .dibujo3{
