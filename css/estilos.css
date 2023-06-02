@@ -10,6 +10,7 @@ body{
     .hero{
         width: 100%;
     }
+
 }
  
 /*Para tablet*/
@@ -27,7 +28,27 @@ body{
     .hero1{
         padding-left: 0;
     }
-        
+    .textoabout h2{
+        display: none;
+    }
+    .textoabout p{
+        display: none;
+    }
+    .estudios{
+        flex-direction: column;
+        position: relative;
+        top: -7rem;
+    }
+    .cuadrados{
+        margin-left: 12rem;
+        margin-bottom: 2rem;
+    } 
+    .dibujo1{
+        width: 2rem;
+    } 
+    .dibujo2{
+        width: 2em;
+    } 
 }
      
 
@@ -44,8 +65,28 @@ body{
     .hero2{
         display: none;
     }
-    
-        
+    .textoabout{
+        display: none;
+    }
+     .estudios{
+        flex-direction: column;
+    }  
+    .textoabout h2{
+        display: none;
+    }
+    .textoabout p{
+        display: none;
+    }
+    .dibujo1{
+        display: none;
+    } 
+    .dibujo2{
+        display: none;
+    }  
+    .cuadrados{
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    } 
 }
  
 
