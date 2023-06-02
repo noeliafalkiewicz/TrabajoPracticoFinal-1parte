@@ -49,6 +49,42 @@ body{
     .dibujo2{
         width: 2em;
     } 
+    .imagenes .dibujo3{
+        margin-right: 10rem;
+        margin-top: -3rem;
+    }
+    .imagenes .dibujo4{
+        display: none;
+    }
+    .work .worktexto{
+        margin-top: 20rem;
+    }
+    .worktexto p{
+        display: none;
+    }
+    .worktexto .worktexto1{
+        margin-left: -4rem;
+    }
+    .worktp .tp3{
+        margin-left: 1rem;
+        margin-right: 0;
+        width: 12rem;
+        height: 20rem;
+    }
+    .tp1tp2 .tp1{
+        width: 12rem;
+        height: 20rem;
+    }
+    .tp1tp2 .tp2{
+        width: 12rem;
+        height: 20rem;
+        margin-top: -3.5rem;
+    }
+    .worktp .tp1tp2{
+        display: flex;
+        flex-direction: row;
+    }
+    
 }
      
 
@@ -86,6 +122,52 @@ body{
     .cuadrados{
         margin-left: 10rem;
         margin-bottom: 2rem;
+    }
+    .imagenes .dibujo3{
+        display: none;
+    }
+    .imagenes .dibujo4{
+        display: none;
+    }
+    .work .worktexto{
+        margin-top: 20rem;
+    }
+    .worktexto p{
+        display: none;
+    }
+    .worktexto .worktexto1{
+        margin-left: 5rem;
+    }
+    .work .worktp{
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 3rem;
+    }
+    .worktp .tp3{
+        margin-left: 1rem;
+        margin-right: 0;
+        width: 8rem;
+        height: 20rem;
+    
+    }
+    .tp1tp2 .tp1{
+        width: 7rem;
+        height: 20rem;
+
+        margin-left: 2rem;
+    }
+    .tp1tp2 .tp2{
+        width: 7rem;
+        height: 20rem;
+        margin-top: -3.5rem;
+        margin-left: 2rem;
+    }
+    .worktp .tp1tp2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
     } 
 }
  
@@ -314,7 +396,7 @@ header a:hover {
 .dibujo4{
     width: 20rem;
     height: 20rem;
-    margin-right: 4rem;
+    margin-right: 0rem;
     margin-top: 0;
 }
 .dibujo3{
