@@ -165,8 +165,9 @@ body{
 
 @media (min-width:320px) and (max-width: 480px){
     header{
-        width: 1rem;
-        margin-right: 0;
+        width: 70%;
+        margin-left: 3rem;
+        padding-right: 5rem;
     }
     .logo nav{
         display: none;
@@ -218,7 +219,7 @@ body{
         margin-left: 3rem;
     }
     .worktp .tp3{
-        margin-left: 1rem;
+        margin-left: 2rem;
         margin-right: 0;
         width: 8rem;
         height: 20rem;
@@ -241,7 +242,21 @@ body{
         flex-direction: row;
         justify-content: space-evenly;
     }
+    .tp3 .tres{
+        width: 7rem;
+        height: 14rem;
     
+    }
+    .tp1 .dos{
+        width: 8rem;
+        height: 9rem;
+        padding-top: 5rem;
+    }
+    .tp2 .uno{
+        width: 7rem;
+        padding-top: 5rem;
+    }
+
     .dibujo-titulo .rama{
         display: none;
     }
@@ -286,6 +301,10 @@ body{
     }
     footer a{
         margin-right: 1rem;
+    }
+    .mensaje button{
+        font-size: 1rem;
+
     }
 }
  
