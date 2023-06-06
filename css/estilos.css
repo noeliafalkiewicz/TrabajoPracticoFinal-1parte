@@ -83,6 +83,19 @@ body{
         display: flex;
         flex-direction: row;
     }
+    .tp3 .tres{
+        width: 10rem;
+        height: 15rem;
+    }
+    .tp1 .dos{
+        width: 15rem;
+        padding-top: 3rem;
+    }
+    .tp2 .uno{
+        width: 11rem;
+        padding-left: 1rem;
+        padding-top: 5rem;
+    }
     .dibujo-titulo .rama{
         width: 10rem;
     }
@@ -105,8 +118,15 @@ body{
         height: 50rem;
         margin-top: -6rem;
         z-index: 2;
-    
     }
+    .mensaje h3{
+        padding-right: 13rem;
+    }
+    .mensaje button{
+        position: relative;
+        right: 6rem;
+    }
+
     footer{
         height: 50rem;
         width: 100%;
@@ -221,6 +241,7 @@ body{
         flex-direction: row;
         justify-content: space-evenly;
     }
+    
     .dibujo-titulo .rama{
         display: none;
     }
@@ -554,7 +575,7 @@ header a:hover {
     padding-left: 3rem;
 }
 .uno{
-    width: 12rem;
+    width: 25rem;
     height: 10rem;
 }
 
@@ -563,9 +584,9 @@ header a:hover {
     height: 10rem;
 }
 .dos{
-    width: 15rem;
+    width: 25rem;
     height: 14rem;
-    margin-left: -2rem;
+    margin-left: -1rem;
 }
 
 .tp3{
@@ -575,8 +596,8 @@ header a:hover {
     margin-right: 5%;
 }
 .tres{
-    width: 10rem;
-    height:15rem;
+    width: 18rem;
+    height: 23rem;
     padding-top: 2rem;
     padding-left: 1rem;
 }
