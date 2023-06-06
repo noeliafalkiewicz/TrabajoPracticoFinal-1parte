@@ -10,7 +10,6 @@ body{
     .hero{
         width: 100%;
     }
-
 }
  
 /*Para tablet*/
@@ -102,10 +101,42 @@ body{
     .formulario .mensaje{
         margin-left: 3rem;
         margin-right: 3rem;
-        width: 40rem;
+        width: 30rem;
         height: 50rem;
-    }
+        margin-top: -6rem;
+        z-index: 2;
     
+    }
+    footer{
+        height: 50rem;
+        width: 100%;
+        position: relative;
+        top: 2rem; 
+        padding-bottom: 0;
+        display: flex; 
+    }
+    footer nav{
+       height: 20rem;
+       margin-top: -10rem;
+       padding-top: 6rem;
+       display: flex;
+       flex-direction: column;
+       z-index: 1;
+       font-size: 10rem;
+       margin-left: -15rem;
+    }
+    footer a{
+        width: 11rem;
+        padding-left: 7rem;
+        padding-bottom: 1rem;
+
+    }
+    footer img{
+        height: 10rem;
+        margin-top: 2rem; 
+        position: relative;
+        right: 18rem;
+    }
     
 }
      
@@ -216,10 +247,25 @@ body{
         margin-top: -23rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        width: 30rem;
+        width: 26rem;
         height: 50rem;
     }
-    
+    footer{
+        width: 100vw;
+        padding-left: 5rem;
+        padding-right: 8rem;
+    }
+    footer img{
+        display: none;
+    }
+    footer nav{
+        padding-left: 0rem;
+        padding-top: 10rem;
+        width: 35rem;
+    }
+    footer a{
+        margin-right: 1rem;
+    }
 }
  
 
@@ -241,18 +287,21 @@ header .logo{
     justify-content: space-between;
     position: fixed;
     padding-top: 3rem;
-    padding-left: 2rem;
-
-    
+    padding-left: 2rem;   
 }
 
 .dibujologo{
-    background-color: rgb(249, 245, 245); 
+    background-color:rgb(249, 245, 245); 
     width: 10rem;
     border-radius: 50%;
     margin-top: -1rem;
     margin-left: 2rem;
     box-shadow: 0.3rem 0.3rem 1rem  rgba(0, 0, 0, 0.1);
+}
+.logo1{
+    width: 9rem;
+    margin-top: -2.4rem;
+    margin-left: -0.5rem;
 }
 
 
@@ -366,8 +415,8 @@ header a:hover {
 .textoabout{
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
-    margin-left: 7rem;
+    margin-top: 7rem;
+    margin-left: 5rem;
 }
 
 .texto1{
@@ -378,12 +427,12 @@ header a:hover {
     color: rgb(240, 142, 147);
 }
 
-.texto2{
+.texto2, .texto3{
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: rgb(161, 185, 209);
-    margin-bottom: 9rem;
+    margin-bottom: -1.5rem;
 }
 
 .estudios{
@@ -410,8 +459,6 @@ header a:hover {
     margin-bottom: 0; 
 }
 
-
-
 .cuadrados:hover{
        transform: scale(1.1);
 }
@@ -433,6 +480,12 @@ header a:hover {
     margin-top: 0rem;
     margin-bottom: 1rem;
     padding-left: 5rem;
+}
+.dosh3{
+    margin-left: -1.5rem;
+}
+.tresh3{
+    margin-left: -1rem;
 }
 
 
@@ -481,10 +534,11 @@ header a:hover {
 
 .worktp{
     display: flex;
+    margin-left: 3rem;
 }
 
 .tp1, .tp2, .tp3{
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .tp1tp2{
@@ -495,13 +549,23 @@ header a:hover {
 
 .tp1{
     width: 25rem;
-    height: 18rem;
+    height: 14rem;
     margin-bottom: 3.5rem;
+    padding-left: 3rem;
+}
+.uno{
+    width: 12rem;
+    height: 10rem;
 }
 
 .tp2{
     width: 25rem;
+    height: 10rem;
+}
+.dos{
+    width: 15rem;
     height: 14rem;
+    margin-left: -2rem;
 }
 
 .tp3{
@@ -509,7 +573,12 @@ header a:hover {
     height: 25rem;
     margin-left: 20%;
     margin-right: 5%;
-
+}
+.tres{
+    width: 10rem;
+    height:15rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
 }
 
 /*SECCION DIBUJO Y TITULO*/
@@ -560,8 +629,11 @@ div h4{
     text-align: center;
     margin-left: 2rem;  
 }
+.social a{
+    color: rgb(161, 185, 209);
+}
 
-.social h4:hover{
+.social a:hover{
     color: white;
     background-color: rgb(161, 185, 209);
 }
@@ -581,7 +653,7 @@ div h4{
 
 .mensaje input{
     width: 80%;
-    height: 4.1rem;
+    height: 4rem;
     margin-bottom: 2.8rem;
     border: 1px solid rgb(161, 185, 209);
     border-radius: 0.5rem;
@@ -599,13 +671,16 @@ div h4{
     border-radius: 0.5rem;
     font-size: 1.5rem;
     font-family:'Quicksand', sans-serif;
+    z-index: 2;
 }
 
 
 .mensaje button{
     width: 15rem;
     height: 5rem;
-    margin-left: 20%;
+    padding-top: -20rem;
+    margin-top: -9rem;
+    margin-left: 10rem;
     border: 1px solid rgba(175, 140, 88, 0.979);
     border-radius: 1rem;
     color: white;
@@ -619,9 +694,17 @@ div h4{
 }
 
 .mensaje h3{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: rgb(161, 185, 209);
     margin-bottom: 2rem;
+    margin-left: 7rem;
+}
+.imagenformulario{
+    width: 19rem;
+    margin-top: -18rem;
+    margin-left: -13.3rem;
+    padding-bottom: -10rem;
+    z-index: 1;
 }
 
 /*SECCION FOOTER*/
@@ -644,12 +727,12 @@ footer a:hover{
     text-decoration: underline
 }
 footer nav{
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-top: -3rem;
     padding-left: 2rem;
 }
 
 .paloma{
     width: 15rem;
-     margin-left: 25rem;
+     margin-left: 18rem;
 }
